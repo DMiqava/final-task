@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+body{
+  justify-content: center;
+}
+.main-box{
+  align-items: center;
+  margin: 5rem auto;
+  border-radius: 20px;
+  width: 40rem;
+  height: 70vh;
+  border: 1px solid black;
+}
+h1{
+  padding: 1rem;
+  font-size: 3rem;
+  margin-left: 13rem;
+}
+
+p{
+  margin-left: 10rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}
+input{
+  margin-left: 10rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  width: 20rem;
+  height: 2rem;
+}
+#payment-btn{
+  margin-left: 10rem;
+  width: 20rem;
+  height: 5vh;
+  font-size: 1.5rem;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
