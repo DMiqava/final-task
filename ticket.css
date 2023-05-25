@@ -5,8 +5,16 @@
 }
 body{
   justify-content: center;
+  background: url(img/wl.jpg);
+  background-blend-mode: darken;
+  /* background-color: rgba(0, 0, 0, 0.3); */
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .main-box{
+  color: white;
+  background-blend-mode: darken;
+  background-color: rgba(0, 0, 0, 0.9);
   align-items: center;
   margin: 5rem auto;
   border-radius: 20px;
@@ -27,16 +35,48 @@ p{
   margin-top: 2rem;
 }
 input{
+  background-color: transparent;
+  border: none;
+  color: white;
+  border-bottom: 1px solid white;
   margin-left: 10rem;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   width: 20rem;
   height: 2rem;
 }
 #payment-btn{
+  margin-top: 1rem;
+  border-radius: 20px;
+  border: 2px solid white;
   margin-left: 10rem;
   width: 20rem;
   height: 5vh;
   font-size: 1.5rem;
+}
+
+#payment-btn:hover{
+  font-weight: bold;
+  cursor: pointer;
+  color: white;
+  background-color: transparent;
+  transition: 0.2s ease-in;
+}
+#back-btn{
+  margin-top: 1rem;
+  border-radius: 20px;
+  color: white;
+  background-color: transparent;
+  border: 2px solid white;
+  margin-left: 10rem;
+  width: 20rem;
+  height: 5vh;
+  font-size: 1.5rem;
+}
+#back-btn:hover{
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  transition: 0.2s ease-in;
 }
 
 input::-webkit-outer-spin-button,

@@ -11,4 +11,5 @@ checkout.innerHTML = `
         <input type="number" placeholder="CCV" maxlength="3">
         <p></p>
         <a href="index.html"><button id="payment-btn">Pay Now</button></a>
+        <a href="index.html"><button id="back-btn">Go Back</button></a>
 `;

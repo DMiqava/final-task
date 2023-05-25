@@ -67,7 +67,7 @@ movieDesc.innerHTML = `
     <div id="seat-map"></div>
     <p class="text-white" id="selected-seats">Selected Seats: </p>
     <p class="text-white" id="total-price">Total Price: $0</p>
-    <p class="text-white" id="decription">You have no seats taken.</p>
+    <p class="text-white" id="description">You have no seats taken.</p>
     <button id="buy-btn">Get Price</button>
     <a href="checkout.html"><button id="final-btn">Pay Now!</button></a>
     </div>
@@ -299,7 +299,7 @@ function buySelectedSeats() {
 
     let money = selectedSeats.length * 10;
     let selSeat = selectedSeats.length;
-    const confirmationMessage = `You have successfully purchased the following seats:\n${selectedSeats.join("\n")}`;
+    const confirmationMessage = `Chosen Seats:\n${selectedSeats.join("\n")}`;
 
     let a = document.getElementById("total-price");
     let b = document.getElementById("selected-seats");
