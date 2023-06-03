@@ -133,8 +133,9 @@ span p {
     width: 40px;
     height: 40px;
     margin: 5px;
-    background-color: #cdaeae;
-    border: 1px solid #ff0000;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 10px;
     cursor: pointer;
   }
   
